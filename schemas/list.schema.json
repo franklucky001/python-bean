@@ -1,0 +1,15 @@
+{
+    "title": "list test",
+    "description": "json validate test",
+    "type": "object",
+    "required": ["values"],
+    "properties": {
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^aaa|bbb$"
+          }
+        }
+    }
+}
